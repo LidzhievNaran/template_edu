@@ -30,6 +30,7 @@ int main() {
     out_array(arr1, n);
     out_array(arr2, n);
     bubbleSort(arr1, n);
+
     bubbleSort(arr2, n);
     std::cout << "Sorted arrays:\n";
     out_array(arr1, n);
